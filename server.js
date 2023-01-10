@@ -29,9 +29,3 @@ bot.on('message', async (msg) => {
 
       bot.sendMessage(chatId, response.data.choices[0].text.trim());
 });
-
-// const text ="eyJoaXN0b3J5IjpbLTUzODg1ODYyMywtMTg4OTgzNTcyMCwxND"
-
-// const decodedText = Buffer.from(text, 'base64').toString('utf8');
-
-// console.log(decodedText);
