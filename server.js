@@ -29,3 +29,5 @@ bot.on('message', async (msg) => {
 
       bot.sendMessage(chatId, response.data.choices[0].text.trim());
 });
+
+//
